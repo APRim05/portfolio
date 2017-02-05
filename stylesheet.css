@@ -46,6 +46,9 @@ hr {
 .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: #10213d;
 }
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #10213d;
+}
 
 .jumbotron {
     color: #2c3e50;
