@@ -13,4 +13,10 @@ $("#contact").click(function(){
  $("#about").removeClass("active");
  $("#portfolio").removeClass("active");
 });
+$(".navbar-brand").click(function(){
+ $("#contact").removeClass("active");
+ $("#about").removeClass("active");
+ $("#portfolio").removeClass("active");
+});
+
 
