@@ -46,6 +46,11 @@ hr {
 .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: #10213d;
 }
+
+.navbar-inverse .navbar-nav>li>a {
+    transition: 0.7s background ease-in-out;
+}
+
 .navbar-inverse .navbar-nav>li>a:hover {
     background-color: #10213d;
 }
@@ -64,6 +69,7 @@ img {
     margin-left: 10px;
     margin-top: 5px;
     background-color: #10213d;
+    transition: 0.7s background ease-in-out;
 }
 
 .thumbnail {
